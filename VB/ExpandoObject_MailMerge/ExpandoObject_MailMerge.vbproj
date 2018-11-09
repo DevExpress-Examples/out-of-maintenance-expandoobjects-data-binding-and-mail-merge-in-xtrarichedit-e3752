@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -42,7 +42,7 @@
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningLevel>0</WarningLevel>
+    <WarningLevel>4</WarningLevel>
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -53,41 +53,43 @@
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>0</WarningLevel>
+    <WarningLevel>4</WarningLevel>
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v11.2">
+    <Reference Include="DevExpress.Data.v13.1">
       <Private>True</Private>
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.Data.v11.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Printing.v11.2.Core">
+    <Reference Include="DevExpress.Printing.v13.1.Core">
       <Private>True</Private>
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.Printing.v11.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v11.2.Core">
+    <Reference Include="DevExpress.Docs.v13.1">
       <Private>True</Private>
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.RichEdit.v11.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v11.2">
+    <Reference Include="DevExpress.Office.v13.1.Core">
       <Private>True</Private>
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.Utils.v11.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v11.2">
+    <Reference Include="DevExpress.RichEdit.v13.1.Core">
       <Private>True</Private>
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.XtraBars.v11.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v11.2">
+    <Reference Include="DevExpress.Utils.v13.1">
       <Private>True</Private>
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.XtraEditors.v11.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v11.2, Version=11.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.XtraRichEdit.v11.2.dll</HintPath>
+    <Reference Include="DevExpress.XtraBars.v13.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v11.2.Extensions, Version=11.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>c:\Projects\Workers\Worker1\TestFolder\Dlls\11.2.8\DevExpress.XtraRichEdit.v11.2.Extensions.dll</HintPath>
+    <Reference Include="DevExpress.XtraRichEdit.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.1.Extensions, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
