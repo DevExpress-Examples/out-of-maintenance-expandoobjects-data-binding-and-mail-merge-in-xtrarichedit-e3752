@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/ExpandoObject_MailMerge/Form1.cs) (VB: [Form1.vb](./VB/ExpandoObject_MailMerge/Form1.vb))
+<!-- default file list end -->
 # ExpandoObjects - data binding and mail merge in XtraRichEdit
 
 
